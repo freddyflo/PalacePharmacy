@@ -1,2 +1,2 @@
 # PalacePharmacy
-This is a freelance web project for a retail pharmaceutical shop based in Accra, Ghana.
+This is a freelance web project for a retail pharmaceutical based in Accra, Ghana.
