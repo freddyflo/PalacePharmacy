@@ -23,11 +23,43 @@ html {
  * Basic styles for links
  */
 a {
-  color: $brand-color;
+//  color: $brand-color;
   text-decoration: none;
 
   @include on-event {
-    color: $text-color;
+   // color: $text-color;
     text-decoration: underline;
   }
 }
+
+/* Below styling is by Fred and Mostafa */
+/* styling for navigation */
+.mynav{
+    background: $nav-bg-color;
+    padding-top: 5px;
+}
+
+.nav-pills > li > a {
+    color: #ffffff;
+}
+
+.nav-pills > li > a:hover {
+    background: $nav-bg-hover;
+    color: $nav-active-color;
+}
+
+.nav-pills > li.active > a {
+    background-color: $nav-active-bg-color;
+    color: $nav-active-color;
+}
+
+.nav-pills > li.active:hover > a {
+    background-color: $nav-bg-hover;
+    color: $nav-active-color;
+}
+
+.row-footer {
+    background: $nav-bg-color;
+    color: $nav-active-color;
+}
+

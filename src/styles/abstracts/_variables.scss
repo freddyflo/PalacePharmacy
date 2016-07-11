@@ -70,3 +70,10 @@ $breakpoints: (
 /// @example scss - When using a CDN
 ///   $base-url: 'http://cdn.example.com/assets/';
 $base-url: '/assets/' !default;
+
+
+// Added by Fred and Mostafa
+$nav-bg-color: #066529;
+$nav-active-color: #ffffff;
+$nav-active-bg-color: #2eee3b;
+$nav-bg-hover: #55ce42;
