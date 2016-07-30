@@ -9,6 +9,12 @@ html {
   box-sizing: border-box;
 }
 
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+  width: 100%;
+  height: 70rem !important;
+}
+
 /**
  * Make all elements from the DOM inherit from the parent box-sizing
  * Since `*` has a specificity of 0, it does not override the `html` value
@@ -17,7 +23,7 @@ html {
  */
 *, *::before, *::after {
   box-sizing: inherit;
-} 
+}
 
 /**
  * Basic styles for links
@@ -62,4 +68,3 @@ a {
     background: $nav-bg-color;
     color: $nav-active-color;
 }
-
