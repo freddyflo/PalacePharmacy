@@ -1,8 +1,17 @@
- function initMap() {
-          var mapDiv = document.getElementById('contactus');
+function initMap() {
+          var myLocation =  {lat: 5.566497399999999, lng: -0.17941220000000158};
+          var mapDiv = document.getElementById('map');
           var map = new google.maps.Map(mapDiv, {
-              center: {lat: 44.540, lng: -78.546},
-              zoom: 8
+              center: myLocation,
+              zoom: 19    
           });
+    
+        var marker = new google.maps.Marker({
+            position: myLocation,
+            map: map,
+            title: "Palace Pharmacy"
+        });
+        marker.setMap(map);
         }
+    
 
