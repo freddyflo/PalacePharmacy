@@ -56,8 +56,8 @@ a {
 }
 
 .nav-pills > li.active > a,
-.nav-pills > li.active:hover > a,
-.nav-pills > li.active:focus > a {
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
     background-color: $nav-active-bg-color;
     color: $nav-active-color;
 }
@@ -88,6 +88,3 @@ p.serviceinfo {
    font-size: 1.150em;
     text-align: justify;
 }
-
-
-

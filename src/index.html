@@ -35,15 +35,15 @@
                 </div>
                   <div id="navbar" class="navbar-collapse collapse">
                         <ul class="nav nav-pills">
-                            <li role="navigation" class="active"><a href="#"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Home</a></li>
-                            <li role="navigation"><a href="#aboutus"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Who we are</a></li>
-                            <li role="navigation"><a href="#services"><span class="glyphicon glyphicon-briefcase" aria-hidden="true"></span> Services</a></li>
-                            <li role="navigation"><a href="#contactus"><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span> Contact us</a></li>
+                            <li class="active tab-bar" role="navigation"><a href="#"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Home</a></li>
+                            <li class="tab-bar" role="navigation"><a href="#aboutus"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Who we are</a></li>
+                            <li class="tab-bar" role="navigation"><a href="#services"><span class="glyphicon glyphicon-briefcase" aria-hidden="true"></span> Services</a></li>
+                            <li class="tab-bar" role="navigation"><a href="#contactus"><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span> Contact us</a></li>
                       </ul>
                 </div>
           </div>
       </nav>
-      
+
       <!-- full width carousel -->
       <div>
           <div class="row row-content">
@@ -91,7 +91,7 @@
      </div>
   </div>
 
-</div>     
+</div>
       </div>
 
       <!-- Carousel -->
@@ -102,7 +102,7 @@
       <!-- Content -->
           <!-- Who are we -->
               <div id="aboutus" class="row row-content">
-                  <div class="col-xs-12 col-sm-12">
+                  <div class="col-sm-12">
                     <p style="padding:20px"></p>
                   <h2><strong>Who we are</strong></h2>
                     <p class="whoareweinfo">
@@ -115,7 +115,7 @@
            <div id="services" class="row row-content">
             <p style="padding:20px"></p>
                <h2><strong>What we do</strong></h2>
-               <div class="col-xs-12 col-sm-4">
+               <div class="col-xs-12 col-md-4">
                    <div class="thumbnail">
                     <img src="" alt="">
                         <div class="caption">
@@ -128,7 +128,7 @@
                         </div>
                     </div>
                </div>
-                <div class="col-xs-12 col-sm-4">
+                <div class="col-xs-12 col-md-4">
                    <div class="thumbnail">
                     <img src="" alt="">
                         <div class="caption">
@@ -139,7 +139,7 @@
                         </div>
                     </div>
                </div>
-                <div class="col-xs-12 col-sm-4">
+                <div class="col-xs-12 col-md-4">
                    <div class="thumbnail">
                        <img src="" alt="">
                           <div class="caption">
@@ -216,7 +216,7 @@
                     <h5><span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span> +233(0)774670</h5>
                 </div>
                 <div class="col-xs-12 col-sm-4">
-                    <h5><span class="glyphicon glyphicon-time" aria-hidden="true"></span> Mon-Sat: 7:00am - 10:00pm 
+                    <h5><span class="glyphicon glyphicon-time" aria-hidden="true"></span> Mon-Sat: 7:00am - 10:00pm
                         <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sun: 2pm - 10:00pm </h5>
                 </div>
                 <div class="col-xs-12 col-sm-4">
@@ -232,16 +232,17 @@
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="javascript/googlemaps.js"></script>
-      
+
     <!-- Include all compiled plugins (below), or include individual files as needed -->
       <!-- Bootstrap Js CDN -->
    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-      
+
     <!-- Include google maps -->
-    
-    <script src="javascript/googlemaps.js"></script>  
+
+    <script src="javascript/googlemaps.js"></script>
+    <script src="javascript/tab.js"></script>
      <script async defer
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyArU8BpTi-wSeG-CB3cEGZOTJJt0ZGMIhM&callback=initMap">
-    </script> 
+    </script>
   </body>
 </html>
