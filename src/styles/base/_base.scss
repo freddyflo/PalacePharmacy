@@ -55,13 +55,16 @@ a {
     color: $nav-active-color;
 }
 
-.nav-pills > li.active > a {
+.nav-pills > li.active > a,
+.nav-pills > li.active:hover > a,
+.nav-pills > li.active:focus > a {
     background-color: $nav-active-bg-color;
     color: $nav-active-color;
 }
 
-.nav-pills > li.active:hover > a {
-    background-color: $nav-bg-hover;
+/* Switch between menu tabs */
+.nav-pills > li.active > .open > a {
+    background-color: $nav-active-bg-color;
     color: $nav-active-color;
 }
 
@@ -69,3 +72,22 @@ a {
     background: $nav-bg-color;
     color: $nav-active-color;
 }
+
+.services {
+    font-family:"Times New Roman", Times, serif;
+    font-weight: bolder;
+    color: #5cb85c;
+}
+
+p.serviceinfo {
+    font-size: 1.150em;
+    text-align: justify;
+}
+
+.whoareweinfo {
+   font-size: 1.150em;
+    text-align: justify;
+}
+
+
+
