@@ -1,39 +1,23 @@
 {
-  "name": "PalacePharmacy",
-  "version": "0.0.1",
-  "description": "This is a freelance web project for a retail pharmaceutical based in Accra, Ghana.",
+  "name": "under-construction",
+  "version": "1.0.0",
+  "description": "Palace Pharmacy Website",
   "main": "index.js",
-  "scripts": {},
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/freddyflo/PalacePharmacy.git"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "web",
-    "html",
-    "sass"
+    "pharmacy",
+    "medicines",
+    "drugs"
   ],
-  "author": "Team Awesome 3.0",
-  "contributors": [
-    {
-      "name": "Mostafa Fateen",
-      "email": "mostafafateen@gmail.com"
-    },{
-      "name": "Fred Aklamanu",
-      "email": "fred.aklamanu@gmail.com"
-    }
-  ],
+  "author": "Fred AKLAMANU",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/freddyflo/PalacePharmacy/issues"
-  },
-  "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^3.1.0",
-    "gulp-livereload": "^3.8.1",
-    "gulp-sass": "^2.2.0",
-    "gulp-scss-lint": "^0.3.9"
-  },
   "dependencies": {
+    "angular": "^1.6.9",
+    "bootstrap": "^4.0.0",
+    "font-awesome": "^4.7.0",
+    "http-server": "^0.11.1",
+    "jquery": "^3.3.1"
   }
 }
