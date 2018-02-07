@@ -1,0 +1,16 @@
+body {
+   background-image: url(../img/underconstruction.png);
+   background-repeat: no-repeat;
+   background-color: #cccccc;
+   background-size: 600px 600px;
+    background-position: center center;
+}
+
+p {
+    margin-top: 920px;
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Heebo', sans-serif;
+}
+
+
