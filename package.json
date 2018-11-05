@@ -1,23 +1,25 @@
 {
-  "name": "under-construction",
+  "name": "palace-pharmacy",
   "version": "1.0.0",
-  "description": "Palace Pharmacy Website",
+  "description": "Pharmaceutical Website(Palace Pharmacy)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "pharmacy",
-    "medicines",
-    "drugs"
+    "medicine",
+    "health"
   ],
-  "author": "Fred AKLAMANU",
+  "author": "Fred AKLAMANU (fred.aklamanu@gmail.com)",
   "license": "ISC",
   "dependencies": {
-    "angular": "^1.6.9",
-    "bootstrap": "^4.0.0",
+    "angular": "^1.6.6",
+    "angular-route": "^1.6.6",
+    "angular-ui-router": "^1.0.3",
+    "bootstrap": "^3.3.2",
     "font-awesome": "^4.7.0",
-    "http-server": "^0.11.1",
-    "jquery": "^3.3.1"
+    "jquery": "^3.2.1",
+    "modernizr": "^3.5.0"
   }
 }
